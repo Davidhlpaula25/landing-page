@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libertimidia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url('LIBERT-BLACKGROUND.png'); /* Imagem de fundo */
+            background-size: 100% 100%; /* Faz a imagem ocupar 100% da largura e 100% da altura */
+            background-position: center; /* Centraliza a imagem na tela */
+            background-repeat: no-repeat; /* Impede que a imagem se repita */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .content {
+            background-color: rgba(24, 23, 48, 0.8); /* Fundo semi-transparente */
+            border-radius: 15px;
+            padding: 40px;
+            width: 80%;
+            max-width: 500px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .content h2 {
+            color: #00FF5F;
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Destaque em amarelo */
+        .highlight {
+            color: rgba(255,136,0);
+        }
+
+        button {
+            background-color: rgb(255, 136, 0);
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #FFD700;
+        }
+
+        /* Ajuste da imagem para dispositivos móveis */
+        @media (max-width: 768px) {
+            .content {
+                width: 90%; /* Ajusta a largura do conteúdo no mobile */
+                padding: 20px;
+            }
+
+            .content p {
+                font-size: 16px;
+            }
+
+            button {
+                width: 100%; /* Faz o botão ocupar toda a largura no mobile */
+                padding: 12px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h2>Libert</h2>
+        <p>Aqui, entendemos que cada <span class="highlight">empresa é única!</span> <br><br> Nossa abordagem personalizada de gestão de mídias pagas é <span class="highlight">baseada em dados</span>,<span class="highlight"> transparência</span> e<span class="highlight"> resultados mensuráveis,</span> garantindo que seu negócio cresça de <span class="highlight">forma sustentável e consistente.</span></p>
+        <button>QUERO SABER MAIS!</button>
+    </div>
+
+</body>
+</html>

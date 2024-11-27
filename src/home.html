@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libertimidia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .logo {
+            position: absolute; /* Logo posicionada em relação ao body */
+            top: 20px; /* Distância do topo */
+            left: 20px; /* Distância da esquerda */
+            width: 300px; /* Ajuste conforme necessário */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+        body {
+            background-image: url('LIBERT-BLACKGROUND.png'); /* Imagem de fundo */
+            background-size: 100% 100%; /* Faz a imagem ocupar 100% da largura e 100% da altura */
+            background-position: center; /* Centraliza a imagem na tela */
+            background-repeat: no-repeat; /* Impede que a imagem se repita */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .content {
+            width: 40%;
+            max-width: 800px;
+            text-align: center;
+            margin-top: 10%;
+            margin-right: 50%;
+          
+        }
+
+        .content h2 {
+            color: #00FF5F;
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            font-size: 30px;
+            line-height: 1.6;
+        }
+
+        /* Destaque em amarelo */
+        .highlight {
+            color: rgba(255,136,0);
+        }
+
+        button {
+            background-color: rgb(255, 136, 0);
+            border: none;
+           
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #FFD700;
+        }
+
+        /* Ajuste da imagem para dispositivos móveis */
+        @media (max-width: 768px) {
+            .content {
+                width: 90%; /* Ajusta a largura do conteúdo no mobile */
+                padding: 20px;
+            }
+
+            .content p {
+                font-size: 16px;
+            }
+
+            button {
+                width: 100%; /* Faz o botão ocupar toda a largura no mobile */
+                padding: 12px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<img src="libert-logo-png (1).png" alt="Logo da LibertMidia" class="logo">
+    <div class="content">
+        <br><br><br>
+        <p>Aqui, entendemos que cada <span class="highlight">empresa é única!</span> <br><br> Nossa abordagem personalizada de gestão de mídias pagas é <span class="highlight">baseada em dados</span>,<span class="highlight"> transparência</span> e<span class="highlight"> resultados mensuráveis,</span> garantindo que seu negócio cresça de <span class="highlight">forma sustentável e consistente.</span></p>
+        <br><br><br><br><br><br>
+       <link rel="stylesheet" href="#"><img src="botão-com-texto.png" alt="">
+    </div>
+
+</body>
+</html>
