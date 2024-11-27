@@ -1,18 +1,15 @@
-## Getting Started
+**Landing Page para Carlos Eduardo**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Sobre o Projeto**
 
-## Folder Structure
+Bem-vindo ao repositório da landing page que desenvolvi para Carlos Eduardo. Este projeto foi criado para destacar os serviços e produtos oferecidos pelo cliente, com foco em uma experiência de usuário moderna e responsiva. A landing page foi projetada com as melhores práticas de desenvolvimento web, garantindo compatibilidade com todos os dispositivos e navegadores.
 
-The workspace contains two folders by default, where:
+**Tecnologias Utilizadas**
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+HTML5: Estrutura semântica do site.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+CSS3: Estilização e responsividade.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+**Funcionalidades**
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Design Responsivo: A página se adapta perfeitamente a diferentes tamanhos de tela, proporcionando uma experiência de navegação consistente em dispositivos móveis, tablets e desktops.
